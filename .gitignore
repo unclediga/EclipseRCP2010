@@ -1,3 +1,6 @@
 /.settings
 /.metadata
 /bin
+runtime*
+*.class
+
