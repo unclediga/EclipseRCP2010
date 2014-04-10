@@ -19,8 +19,9 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
     public void preWindowOpen() {
         IWorkbenchWindowConfigurer configurer = getWindowConfigurer();
         configurer.setInitialSize(new Point(100, 100));
-        configurer.setShowCoolBar(false);
+        configurer.setShowCoolBar(true);
         configurer.setShowStatusLine(false);
+        configurer.setShowMenuBar(true);
         configurer.setTitle("Hyperbola"); //$NON-NLS-1$
     }
 }
