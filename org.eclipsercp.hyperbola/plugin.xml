@@ -47,10 +47,6 @@
                name="aboutImage"
                value="icons/about.gif">
          </property>
-         <property
-               name="aboutText"
-               value="%aboutText">
-         </property>
       </product>
    </extension>
 
