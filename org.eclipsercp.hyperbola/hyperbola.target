@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="hyperbola" sequenceNumber="3">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+<unit id="org.eclipse.emf.common.feature.group" version="2.9.2.v20131212-0545"/>
+<unit id="org.eclipse.emf.ecore.feature.group" version="2.9.2.v20131212-0545"/>
+<unit id="org.eclipse.equinox.p2.sdk.feature.group" version="3.8.1.v20140221-1852"/>
+<unit id="org.eclipse.rcp.source.feature.group" version="4.3.2.v20140221-1700"/>
+<unit id="org.eclipse.rcp.sdk.id" version="4.3.2.M20140221-1700"/>
+<repository location="http://download.eclipse.org/eclipse/updates/4.3"/>
+</location>
+</locations>
+</target>
