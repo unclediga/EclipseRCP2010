@@ -9,7 +9,7 @@ public class MyWorkbenchAdvisor extends WorkbenchAdvisor {
 
 	@Override
 	public String getInitialWindowPerspectiveId() {
-		return null;
+		return MyPerspective.ID;
 	}
 
 	@Override

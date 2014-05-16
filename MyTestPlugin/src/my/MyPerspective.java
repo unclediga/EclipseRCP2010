@@ -5,6 +5,8 @@ import org.eclipse.ui.IPerspectiveFactory;
 
 public class MyPerspective implements IPerspectiveFactory {
 
+	public static String ID = "my.perspective";
+	
 	@Override
 	public void createInitialLayout(IPageLayout layout) {
 		layout.setEditorAreaVisible(false);
