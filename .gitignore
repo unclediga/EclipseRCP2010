@@ -3,4 +3,5 @@
 /bin
 runtime*
 *.class
+org.eclipse.swt.examples*
 
